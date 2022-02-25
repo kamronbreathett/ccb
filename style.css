@@ -1,0 +1,191 @@
+/* Helper Styles: Do not Delete */
+body {
+	margin:  0;
+	padding:  0;
+	box-sizing:  border-box;
+	background-image: url(background.png);
+}
+
+/* Put your CSS Styles Below this Line */
+/*These are all my CSS rules for my website*/
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 56px;
+}
+
+h4{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 56px;
+}
+h3 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 35px;
+}
+
+h5 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 35px;
+	margin: 10px;
+	color: black;
+	text-decoration: none;
+}
+
+
+p {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+}
+
+ul {
+	list-style: none;
+}
+
+li {
+	text-decoration: none;
+}
+
+footer {
+	display: flex;
+}
+
+footer div {
+	width:  50%;
+	background-color: #F3C98B;
+	border:  1px solid black;
+}
+
+footer div h4 {
+	text-align: center;
+}
+
+a:hover{
+   color: red;
+   text-decoration: none;
+   color: red;
+}
+li {
+	display: inline;
+}
+/*This part contains all the parts of the website that stay the same; constant*/
+.logo{
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+
+.dropbtn {
+  background-color: black;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  position: absolute;
+
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+
+.dropdown:hover .dropdown-content {display: block;}
+
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+.first-row, .second-row {
+	display: flex;
+	margin: 20px 0;
+	align-items:  center;
+}
+
+.specials {
+	width:  33%;
+	background-color: #F3C98B;
+	padding:  5%;
+}
+
+.top-left{
+	width: 33%;
+}
+
+.top-right{
+	width: 33%;
+
+}
+
+.top-left img, .top-right img, .bottom-left img, .bottom-right img {
+	width:  100%;
+}
+
+
+.bottom-right{
+	width: 33%;
+}
+.bottom-left{
+	width: 33%;
+
+}
+
+.my-about{
+	width:  33%;
+	background-color: #F3C98B;
+	padding:  5%;
+}
+
+.iced_coffee{
+	text-align: center;
+	display: flex;
+	background-color: white;
+	flex-direction: column;
+	background-color: #F3C98B;
+	border-style: solid;
+	border-width: 1px;
+}
+
+.coffee_people{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 25px;
+	color: black;
+	text-decoration: none;
+	align-content: center;
+}
+
+.title{
+	background-color: #F3C98B;
+}
+
+.hiring-page{
+	background-color: #F3C98B;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	padding: 3%;
+	justify-content: center;
+	border: black;
+	border-style: solid;
+	border-width: 1px;
+	word-spacing: 3px;
+	word-spacing: 3px;
+}
+
